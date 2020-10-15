@@ -1,0 +1,98 @@
+/* Estilos Gerais */
+
+/* Reseta alguns Estilos */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Helvetica;
+color: #323232;
+border: none;
+
+}
+
+body {
+    background-image: url('../imagens/back.jpg');
+    background-size: cover;
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a, label {
+    font-size: .8rem; /* 16 * 0.8 = tam font em pixel */
+}
+
+a:hover {
+    color: #08858B;
+}
+
+/* container do login */
+
+#login-container {
+    background-color: darkorange;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px; /* separa os elementos */
+    margin-top: 5vh; /* view high - 10% da altura da tela */
+    border-radius: 25px;
+    text-align: center;
+}
+
+/* formulario */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    font-weight: bold;
+    background-color: darkorange;
+    border-bottom: 3px solid #323232;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+input:focus {
+    border-bottom: 3px solid #08858B;
+}
+
+#forgot-pass {
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    display: block;
+    margin-bottom: 60px;
+}
+
+input[type="button"] {
+    text-align: center;
+    /* text-transform: uppercase; */
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 25px;
+    margin-top: 60px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: royalblue;
+    transition: .5s;
+}

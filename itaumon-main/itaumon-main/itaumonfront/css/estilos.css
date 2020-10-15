@@ -1,0 +1,40 @@
+/* Reseta alguns Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+
+body {
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+}
+
+/* container do login */
+
+.container {
+    margin-top: 10vh;
+    background-color: darkorange;
+    width: 500px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.form-group {
+   font-weight: bold;
+}
+
+input[type="button"] {
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    margin-top: 40px;
+    color: white;
+    background-color: blue;
+    cursor: pointer;
+}

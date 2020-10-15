@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feriados</title>
+    <script src="js/comum.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+</head>
+
+<body onload="carregarusuario()">
+
+    <div class="container">
+        <div class="row mt-1">
+            <div class="col-12 p-2 text-center bg-info text-white font-weight-bold">
+                <h4>Sistema de Feriados</h4>
+            </div>
+        </div>
+        <div class="row mt-1">
+            <div class="col-3 p-0" id="fotousuario"></div>
+            <div class="col-6 border border-primary">
+                <div class="row">
+                    <div class="pl-4 pt-4 col-2 col-form-label font-weight-bold">
+                        <label>Nome</label>
+                    </div>
+                    <div class="pl-5 pt-4 col-10 col-form-label font-weight-bold">
+                        <label id="txtnomeusuario"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="pl-4 pt-3 col-2 col-form-label font-weight-bold">
+                        <label>RACF</label>
+                    </div>
+                    <div class="pl-5 pt-3 col-10 col-form-label font-weight-bold">
+                        <label id="txtracfusuario"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="pl-4 pt-3 col-2 col-form-label font-weight-bold">
+                        <label>Funcional</label>
+                    </div>
+                    <div class="pl-5 pt-3 col-10 col-form-label font-weight-bold">
+                        <label id="txtfuncionalusuario"></label>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="pl-4 pt-3 col-2 col-form-label font-weight-bold">
+                        <label>Email</label>
+                    </div>
+                    <div class="pl-5 pt-3 col-10 col-form-label font-weight-bold">
+                        <label id="txtemailusuario"></label>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3 pl-5 pr-0">
+                <button onclick="logout()" type="button"
+                    class="btn btn-primary btn-lg btn-block font-weight-bold h-30">Logout</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mt-1">
+            <div class="col-12 p-2 text-center bg-info text-white font-weight-bold">
+                <h5>Selecione uma Opção</h5>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-2"></div>
+            <div class="col-3">
+                <button onclick="window.location='cadastro.html';" type="button"
+                    class="btn btn-primary btn-lg font-weight-bold mx-0 w-100 h-40">Cadastro</button>
+            </div>
+            <div class="col-2"></div>
+            <div class="col-3">
+                <button onclick="window.location='relatorio.html';" type="button"
+                    class="btn btn-primary btn-lg font-weight-bold mx-0 w-100 h-40">Relatorio</button>
+            </div>
+            <div class="col-2"></div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
