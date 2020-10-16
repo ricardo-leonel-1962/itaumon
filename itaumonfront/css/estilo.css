@@ -1,0 +1,54 @@
+/* Reseta alguns Estilos - Leonel */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+    }
+
+    /* Insere tela de fundo - Leonel */
+    body {
+        background-image: url('C:\Users\athome\eclipse-workspace\itaumon-main\itaumon-main\itaumonfront\images\back.jpg');
+        background-size: cover;
+    }
+
+    .fonte_menu{
+        font-size: 14px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: bold;
+        color:green;
+    }
+    .fonte_listagem{
+        font-size: 16px;
+        font-family: Verdana;
+        font-weight: bold;
+        color:indigo;
+
+    }
+    #formuser
+    {
+        background-color: yellow;
+        color:blue;
+
+    }
+    .container {
+        border: 3px solid red;
+        width: 50px;
+    }
+   /*
+   * criacao
+   */
+    .div1 {
+        background-color: red;
+    }
+    .div2 {
+        background-color: yellow;
+    }
+    .div3 {
+    background-color: grey;
+    }
+    .div4 {
+        background-color: green;
+    }

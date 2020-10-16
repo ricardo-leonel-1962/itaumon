@@ -1,0 +1,67 @@
+/* Reseta alguns Estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+
+body {
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+/* container do login */
+
+.container {
+    margin-top: 10vh;
+    background-color: darkorange;
+    width: 30%;
+    border-radius: 10px;
+    position: relative;
+}
+
+.figure-logo {
+    text-align: center;
+}
+
+.p-3 {
+    text-align: center;
+    font-size: 1.5rem;
+    color: midnightblue;
+    font: bold;     
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.p-7 {
+    text-align: center;
+    font-size: 1.4rem;
+    color: midnightblue;
+    font: bold;     
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+.text-blue {
+    color: midnightblue;
+    font: bold;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+.form-group {
+    margin-left: 100px;
+    text-align: left;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+#txtusuario {
+    width:263px
+}
+#btnlogin {
+    background-color: mediumblue;
+    border: none;
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
