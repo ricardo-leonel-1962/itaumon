@@ -1,0 +1,29 @@
+/* Reseta alguns Estilos */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+
+body {
+    background-image: url(../images/back.jpg);
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.container {
+    margin-top: 5vh;
+    background-color: darkorange;
+    border-radius: 10px;
+}
+
+#botend {
+    border: none;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+}
